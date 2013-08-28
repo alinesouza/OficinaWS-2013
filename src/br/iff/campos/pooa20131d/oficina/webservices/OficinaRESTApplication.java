@@ -14,6 +14,7 @@ public class OficinaRESTApplication extends Application {
 	public OficinaRESTApplication(){
 	     singletons.add(new ProprietarioResource());
 	     singletons.add(new MecanicoResource());
+	     singletons.add(new ServicoResource());
 	}
 	@Override
 	public Set<Class<?>> getClasses() {
